@@ -57,7 +57,6 @@ interval_size=[(mu_size - size_minusplus), (mu_size + size_minusplus )]
 
 #print
 print('The degrees of freedom:',dof, ' ,The t from the table:',t,' ,The sample size',n)
-#print(mu_tl, ':is the mean of the prices, ',mu_size, ':is the mean of the sizes')
 print('The standard deviation of the price:',std_tl,'TL',', The standard deviation of the size',std_size,'m^2')
 print('Average price is :',mu_tl,'+/-',tl_minusplus,'TL')
 print('Average price interval is (with 95% confidence):', interval_tl,'TL')

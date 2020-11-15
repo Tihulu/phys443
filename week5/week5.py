@@ -47,7 +47,7 @@ std_size=std(size,mu_size)
 
 
 #Sample size is small we need to look up for t table (page45).
-#Since the deg. of freedom is 14 and the confidence level is 95%,we can easily find that t eqauls to 2.145.
+#Since the deg. of freedom is 14 and the confidence level is 95%,we can easily find that t is eqaul to 2.145.
 
 #Finding intervals with the confidence level of 95%
 tl_minusplus=( (t*std_tl)//(m.sqrt(n)) )

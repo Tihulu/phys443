@@ -17,7 +17,7 @@ for  i in range(N_MC):
 #https://www.wolframalpha.com/input/?i=integral%28%282%2F%281-exp%28-2%29%29%29*exp%28-2*x%29%29+from+0+to+x
 #then find inverse of the function 
 #by https://www.wolframalpha.com/input/?i=y%3D%282+e%5E%282+-+x%29+sinh%28x%29%29%2F%28e%5E2+-+1%29+find+x
-#The integral is x^3 hence the inverse x=y^1/3
+#The integral is x^3 hence the inverse is x=y^1/3
 	y1 = 0.5*( np.log( (-m.exp(2)) / ( (-m.exp(2)-x) + (x*m.exp(2))) ) )
 	y2 = m.pow(x,1/3)
 	#y3 = -np.log(1-x)
